@@ -1,10 +1,13 @@
 # input-date-to-js-date
 
-Functionality for converting html-date-inputs to JS-date-objects.
+Functionality for converting html-date-inputs to JS-date-objects and vice versa.
 
 ## The problem
 HTML supports multiple time-related input types like: time, date, week, month, and datetime-local. All this is great, however, there can be one small problem: we need a way to set the value of the input from a JavaScript Date object, as well as a way to get the value from the input into a JavaScript date object.
 View [the problem on codepen](https://codepen.io/MendyBerger/pen/zYBvOKW).
+
+## Getting Started
+run `npm i input-date-to-js-date`.
 
 ## Example usage
 ```html
