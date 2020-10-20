@@ -48,5 +48,5 @@ export function toInputMonth(date: Date): string {
 	});
 }
 export function fromInputMonth(s: string): Date {
-	return new Date(s + "-01T:00:00");
+	return new Date(s + "-01T00:00");
 }
