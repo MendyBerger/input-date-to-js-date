@@ -37,7 +37,7 @@ fromInputDatetimeLocal(s: string): Date;
 // type=time
 // if you don't include seconds in your input set includeSeconds to false
 toInputTime(date: Date, includeSeconds?: boolean = true): string;
-// if you want the time to be in a specific date add the day parameter otherwise it will default to 1970-01-01
+// if you want the time to be in a specific date add the day parameter otherwise it will default to todays date
 fromInputTime(s: string, day?: Date = new Date): Date;
 
 // type=date
