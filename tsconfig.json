@@ -6,6 +6,7 @@
 		"outDir": "./dist/",
 		"rootDir": "./src/",
 		"strict": true,
-		"forceConsistentCasingInFileNames": true
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node" // can't run tests without this
 	}
 }
