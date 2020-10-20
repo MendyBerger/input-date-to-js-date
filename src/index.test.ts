@@ -162,7 +162,5 @@ test("type=month html to js", () => {
 
 	const newDate = fromInputMonth(htmlDateString);
 
-	console.log(newDate, origDate);
-
 	expect(newDate).toEqual(origDate);
 });
